@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@android:color/transparent"
+    tools:ignore="MissingDefaultResource">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@android:color/transparent"
+        android:orientation="vertical">
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    android:layout_height="wrap_content">
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:background="@android:color/transparent"
+                            android:layout_height="wrap_content">
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:background="@android:color/transparent"
+                                android:layout_height="wrap_content">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:background="@android:color/transparent"
+                                    android:layout_height="match_parent">
+                                    <com.makeramen.roundedimageview.RoundedImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        app:riv_mutate_background="true"
+                                        android:src="@drawable/logout_ng_three"
+                                        android:scaleType="center"
+                                        app:riv_corner_radius="10dip"
+                                        app:riv_border_width="2dip"
+                                        app:riv_oval="false"
+                                        app:riv_border_color="#FFD62C"
+                                        />
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@android:color/transparent"
+                                    android:orientation="vertical">
+                                    <Button
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:textAlignment="center"
+                                        android:layout_marginTop="5dp"
+                                        style="@style/Widget.AppCompat.Button.Borderless"
+                                        android:textColor="@color/white"
+                                        android:text="Notifications"
+                                        android:gravity="center"
+                                        android:layout_marginHorizontal="10dp"
+                                        android:fontFamily="@font/reglisse_fill"
+                                        android:textSize="30sp"
+                                        />
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:textSize="@dimen/text_16"
+                                        android:id="@+id/notification_desc"
+                                        android:layout_marginHorizontal="10dp"
+                                        android:textColor="@color/white"
+                                        android:text=""
+                                        android:gravity="center"
+                                        android:fontFamily="@font/reglisse_fill"/>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="@dimen/width_40dp"
+                                        android:layout_marginBottom="30dp"
+                                        android:layout_marginTop="@dimen/margin_8dp"
+                                        android:gravity="center"
+                                        android:orientation="horizontal">
+                                        <Button
+                                            android:layout_width="@dimen/width_80dp"
+                                            android:layout_height="match_parent"
+                                            android:text="OK"
+                                            android:id="@+id/go_to_notification"
+                                            android:textColor="@color/white"
+                                            android:fontFamily="@font/reglisse_fill"
+                                            android:textSize="@dimen/text_size_20"
+                                            android:background="@drawable/ic_dark_green"
+                                            android:layout_marginLeft="@dimen/margin_15"/>
+
+                                    </LinearLayout>
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="@dimen/margin_5dp"/>
+                                </LinearLayout>
+
+                            </FrameLayout>
+
+                        </LinearLayout>
+                    </FrameLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_gravity="end|top"
+                android:gravity="end|top"
+                android:visibility="gone"
+                android:layout_marginTop="-20dp"
+                android:layout_marginRight="-20dp"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/logout_close">
+
+                </ImageView>
+            </LinearLayout>
+
+
+        </FrameLayout>
+
+    </LinearLayout>
+</LinearLayout>

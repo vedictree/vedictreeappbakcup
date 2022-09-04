@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_gravity="start|center"
+    android:gravity="start|center"
+    android:clickable="true"
+    android:layout_marginHorizontal="@dimen/padding_5"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="@dimen/width_250dp"
+            android:layout_height="match_parent"
+            >
+            <ProgressBar
+                android:id="@+id/progress"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:visibility="gone" />
+
+            <ImageButton
+                android:id="@+id/new_sesion_iv"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:contentDescription=""
+                android:focusable="true"
+                android:scaleType="fitCenter" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:visibility="gone"
+        android:paddingHorizontal="20dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:visibility="gone"
+            android:orientation="vertical"
+            tools:ignore="NestedWeights">
+            <Button
+                android:id="@+id/session_name_button"
+                android:layout_width="@dimen/width_160"
+                android:layout_height="@dimen/width_120"
+                android:text="MORNING\nROUTINE"
+                android:textSize="@dimen/text_27"
+                android:textStyle="bold"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:fontFamily="@font/reglisse_fill"
+                android:background="@drawable/morning_routine_bg"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/session_name_ll"
+            android:layout_width="@dimen/width_150"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="@dimen/vert_12"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="5dp"
+            android:layout_gravity="center"
+            android:layout_weight="4">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    app:cardCornerRadius="12dp"
+                    android:layout_weight="1">
+                    <ImageView
+                        android:id="@+id/session_image_view"
+                        android:layout_width="match_parent"
+                        android:layout_marginBottom="@dimen/padding_20"
+                        android:layout_height="match_parent"
+                        />
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/minus_20"
+                android:layout_height="match_parent"
+                android:layout_weight="8">
+                <LinearLayout
+                    android:id="@+id/session_name_ll_two"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginBottom="5dp"
+                    >
+                    <TextView
+                        android:id="@+id/session_name_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="RAKSHA BANDHAN"
+                        android:textColor="@color/black"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:textSize="@dimen/text_20sp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

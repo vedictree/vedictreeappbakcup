@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.vedictree.preschool">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <queries>
+        <intent>
+            <action android:name="com.google.android.youtube.api.service.START" />
+        </intent>
+    </queries>
+
+    <application
+        android:name=".MyApplication"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/app_logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/app_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar"
+        android:usesCleartextTraffic="true"
+        tools:ignore="AllowBackup,UnusedAttribute">
+        <activity
+            android:name=".TodaySessionActivity"
+            android:exported="false"
+            android:screenOrientation="landscape"/>
+        <!-- <activity -->
+        <!-- android:name=".VideoCallActivity" -->
+        <!-- android:exported="false" /> -->
+        <activity
+            android:name=".RegisterTermAndCondition"
+            android:exported="false" />
+        <activity
+            android:name=".VideoSessionStoryCraft"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".QRCodeActivityNew"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ChangePasswordNew"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".TermsAndConditionsNew"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ReceiptActivityNew"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".MyCoursesNew"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ProfileActivityNew"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ReportCardNew"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ProgressReportNew"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".UploadTestNew"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".NewParentDashboard"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".DownloadHomeworkNew"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".NewChatActivity"
+            android:screenOrientation="behind" />
+        <activity
+            android:name=".HomeworkNew"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".FestivalSession"
+            android:screenOrientation="landscape" />
+        <activity android:name=".VerifyOtpNew" />
+        <activity android:name=".ForgotPasswordNew" />
+        <activity
+            android:name=".VideoSessionActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VideoMonthDayActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ActivitiesActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ChildeDashboardNew"
+            android:screenOrientation="landscape" /> <!-- android:launchMode="singleTop" -->
+        <activity
+            android:name=".YouTubeVideo"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".VideoSplash"
+            android:screenOrientation="landscape" /> <!-- <activity -->
+        <!-- android:name=".Cha" -->
+        <!-- android:screenOrientation="behind" /> -->
+        <activity
+            android:name=".PromoCode"
+            android:screenOrientation="behind" />
+        <activity android:name=".video_call" />
+        <activity
+            android:name=".NotificationActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".PaymentMode"
+            android:screenOrientation="behind" />
+        <activity android:name=".PaymentEMI" />
+        <activity
+            android:name=".PdfView"
+            android:screenOrientation="behind" />
+        <activity
+            android:name=".CourseSuper"
+            android:screenOrientation="behind" />
+        <activity
+            android:name=".CourseRock"
+            android:screenOrientation="behind" />
+        <activity
+            android:name=".CourseShining"
+            android:screenOrientation="behind" />
+        <activity
+            android:name=".CourseTwinking"
+            android:screenOrientation="behind" />
+        <activity
+            android:name=".CourseGold"
+            android:screenOrientation="behind" />
+        <activity
+            android:name=".VideoPlayerDemoVideoPlayer"
+            android:configChanges="orientation"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".EditProfile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PaymentActivity"
+            android:exported="true"
+            android:screenOrientation="behind" />
+
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_live_x90EawgbGwgJ18" /> <!-- <meta-data -->
+        <!-- android:name="com.facebook.sdk.ApplicationId" -->
+        <!-- android:value="@string/facebook_app_id" /> -->
+        <meta-data
+            android:name="com.facebook.sdk.AutoLogAppEventsEnabled"
+            android:value="true" />
+
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:screenOrientation="behind">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".YouTubePopUp"
+            android:theme="@android:style/Theme.Dialog" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="com.google.android.gms.cast.framework.OPTIONS_PROVIDER_CLASS_NAME"
+            android:value="com.vedictree.preschool.CastOptionsProvider" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".MusicBackground"
+            android:enabled="true"
+            android:process=":myBackgroundServiceProcess" /> <!-- <receiver android:name=".ScreenUnlockReceiver" -->
+        <!-- android:exported="true"/> -->
+        <receiver
+            android:name="com.razorpay.RzpTokenReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="rzp.device_token.share" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.razorpay.CheckoutActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:theme="@style/CheckoutTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <data
+                    android:host="rzp.io"
+                    android:scheme="io.rzp" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

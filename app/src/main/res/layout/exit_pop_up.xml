@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@android:color/transparent"
+    tools:ignore="MissingDefaultResource">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@android:color/transparent"
+        android:orientation="vertical">
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    android:layout_height="wrap_content">
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:background="@android:color/transparent"
+                            android:layout_height="wrap_content">
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:background="@android:color/transparent"
+                                android:layout_height="wrap_content">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:background="@android:color/transparent"
+                                    android:layout_height="match_parent">
+                                    <com.makeramen.roundedimageview.RoundedImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        app:riv_mutate_background="true"
+                                        android:src="@drawable/logout_ng_three"
+                                        android:scaleType="center"
+                                        app:riv_corner_radius="10dip"
+                                        app:riv_border_width="2dip"
+                                        app:riv_oval="false"
+                                        app:riv_border_color="#FFD62C"
+                                        />
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@android:color/transparent"
+                                    android:orientation="vertical">
+                                    <Button
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:textAlignment="center"
+                                        android:layout_marginTop="20dp"
+                                        style="@style/Widget.AppCompat.Button.Borderless"
+                                        android:layout_marginHorizontal="20dp"
+                                        android:textColor="@color/white"
+                                        android:text="DO YOU REALLY \n WANT TO EXIT?"
+                                        android:fontFamily="@font/reglisse_fill"
+                                        android:textSize="30sp"
+                                        />
+
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="@dimen/width_40dp"
+                                        android:layout_marginBottom="30dp"
+                                        android:layout_marginTop="@dimen/margin_8dp"
+                                        android:gravity="center"
+                                        android:layout_marginHorizontal="30dp"
+                                        android:orientation="horizontal">
+                                        <Button
+                                            android:id="@+id/exit_yes_button"
+                                            android:background="@drawable/logout_yes"
+                                            android:layout_width="@dimen/width_80dp"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginRight="@dimen/margin_15"
+                                            />
+                                        <Button
+                                            android:background="@drawable/logout_yes"
+                                            android:layout_width="@dimen/button_30"
+                                            android:layout_height="match_parent"
+                                            android:visibility="invisible" />
+
+                                        <Button
+                                            android:id="@+id/exit_no_button"
+                                            android:layout_width="@dimen/width_80dp"
+                                            android:background="@drawable/logout_no"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginLeft="@dimen/margin_15"/>
+
+                                    </LinearLayout>
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="@dimen/margin_5dp"/>
+                                </LinearLayout>
+
+                            </FrameLayout>
+
+                        </LinearLayout>
+                    </FrameLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_gravity="end|top"
+                android:gravity="end|top"
+                android:visibility="gone"
+                android:layout_marginTop="-20dp"
+                android:layout_marginRight="-20dp"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/logout_close">
+
+                </ImageView>
+            </LinearLayout>
+
+
+        </FrameLayout>
+
+    </LinearLayout>
+</LinearLayout>

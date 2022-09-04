@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "810255895906",
+    "project_id": "vedic-tree-kids-learning-app",
+    "storage_bucket": "vedic-tree-kids-learning-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:810255895906:android:c885e90c4f58b58c3cf03b",
+        "android_client_info": {
+          "package_name": "com.vedictree.preschool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "810255895906-6u2vt24ri8tovf90p1cfccujh8pje0ev.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWBSre_GD1UtuFfxSx4GmDmGcKQOCcY6o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "810255895906-6u2vt24ri8tovf90p1cfccujh8pje0ev.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

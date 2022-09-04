@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    android:background="@drawable/videos_bg"
+    tools:ignore="MissingDefaultResource">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="8"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="1">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_marginRight="20dp"
+                        android:gravity="left"
+                        android:weightSum="10"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/video_top_bg"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:id="@+id/back_upload_homework_new"
+                                android:layout_width="@dimen/button_40"
+                                android:scaleType="fitCenter"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/login_back_button"/>
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="@dimen/padding_5"
+                                android:layout_gravity="center"
+                                android:textStyle="bold"
+                                android:layout_marginHorizontal="15dp"
+                                android:background="@android:color/transparent"
+                                android:text="Upload Homework"
+                                android:textColor="@color/white"
+                                android:paddingBottom="5dp"
+                                android:fontFamily="@font/reglisse_fill"
+                                android:textSize="@dimen/text_size_20"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="1">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="20dp"
+
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/subject_name_new"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center|left"
+                        android:layout_marginHorizontal="15dp"
+                        android:layout_marginTop="30dp"
+                        android:background="@drawable/drawable_edit_text"
+                        android:baselineAligned="false"
+                        android:gravity="left|center"
+                        android:paddingLeft="10dp"
+                        android:text="Subjet of test"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_18"
+                        android:fontFamily="@font/reglisse_fill"
+                         />
+
+                    <TextView
+                        android:id="@+id/subject_date_new"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center|left"
+                        android:layout_marginHorizontal="15dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/drawable_edit_text"
+                        android:gravity="left|center"
+                        android:paddingLeft="10dp"
+                        android:text="Date of test"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_18"
+                        android:fontFamily="@font/reglisse_fill" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginHorizontal="10dp"
+                        android:background="@drawable/drawable_edit_text"
+                        android:hint="subject name"
+                        android:inputType="textPersonName"
+                        android:paddingLeft="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_16"
+                        android:textStyle="bold"
+                        android:visibility="gone" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginHorizontal="15dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:textColor="@color/white"
+                            android:text="Upload Test file"
+                            android:layout_weight="3"
+                            android:layout_marginTop="5dp"
+                            android:layout_gravity="center|left"
+                            android:gravity="left|center"
+                            android:paddingLeft="10dp"
+                            android:textSize="@dimen/text_18"
+                            android:paddingEnd="10dp"
+                            android:fontFamily="@font/reglisse_fill"/>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="7"
+                            android:gravity="center"
+                            android:visibility="gone"
+                            android:layout_gravity="center"
+                            android:orientation="horizontal">
+                            <Button
+                                android:id="@+id/add_pdf_new"
+                                android:layout_width="@dimen/button_width_180dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="5dp"
+                                android:background="@drawable/ic_pay_button_bg"
+                                android:fontFamily="@font/s_i"
+                                android:gravity="center"
+                                android:text="Upload"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/text_11"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/test_upload_ll_new"
+                        android:orientation="vertical"
+                        android:visibility="gone"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_marginVertical="@dimen/activity_top_margin_5dp"
+                            android:layout_gravity="center"
+                            android:layout_marginHorizontal="@dimen/margin_horizontal_25"
+                            android:focusable="true"
+                            android:focusableInTouchMode="true"
+                            android:id="@+id/test_upload_recyclerview_new"/>
+
+                    </LinearLayout>
+
+                    <!--        <EditText-->
+                    <!--            android:id="@+id/test_file"-->
+                    <!--            android:layout_width="match_parent"-->
+                    <!--            android:layout_height="50dp"-->
+                    <!--            android:textColor="@color/black"-->
+                    <!--            android:hint="Upload 1"-->
+                    <!--            android:layout_marginHorizontal="10dp"-->
+                    <!--            android:inputType="textPersonName"-->
+                    <!--            android:background="@drawable/drawable_edit_text"-->
+                    <!--            android:textSize="@dimen/text_16"-->
+                    <!--            android:paddingLeft="10dp"-->
+                    <!--            android:textStyle="bold"/>-->
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TableLayout
+                                android:id="@+id/tb_new"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:orientation="vertical">
+                                <!--            android:stretchColumns="0,1">-->
+
+                                <!--            <TableRow-->
+                                <!--                android:id="@+id/row1"-->
+                                <!--                android:layout_width="match_parent"-->
+                                <!--                android:layout_height="50dp"-->
+                                <!--                android:layout_gravity="center"-->
+                                <!--                android:orientation="horizontal">-->
+                                <!--                <EditText-->
+                                <!--                    android:id="@+id/test_file"-->
+                                <!--                    android:layout_width="match_parent"-->
+                                <!--                    android:layout_height="50dp"-->
+                                <!--                    android:textColor="@color/black"-->
+                                <!--                    android:hint="Upload 1"-->
+                                <!--                    android:layout_margin="15dp"-->
+                                <!--                    android:layout_weight="9"-->
+                                <!--                    android:inputType="textPersonName"-->
+                                <!--                    android:background="@drawable/drawable_edit_text"-->
+                                <!--                    android:textSize="@dimen/text_16"-->
+                                <!--                    android:paddingLeft="10dp"-->
+                                <!--                    android:textStyle="bold"/>-->
+
+                                <!--                <ImageButton-->
+                                <!--                    android:id="@+id/delete_button"-->
+                                <!--                    android:layout_width="50dp"-->
+                                <!--                    android:layout_height="50dp"-->
+                                <!--                    android:layout_weight="1"-->
+                                <!--                    android:layout_margin="15dp"-->
+                                <!--                    android:background="@android:color/transparent"-->
+                                <!--                    app:srcCompat="@drawable/ic_baseline_delete_24" />-->
+
+                                <!--            </TableRow>-->
+
+
+                            </TableLayout>
+                            <Button
+                                android:id="@+id/submit_test_data_new"
+                                style="@style/Widget.AppCompat.Button.Borderless"
+                                android:layout_width="180dp"
+                                android:layout_height="50dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="10dp"
+                                android:background="@drawable/ic_white_background"
+                                android:gravity="center"
+                                android:text="Submit"
+                                android:visibility="gone"
+                                android:textAllCaps="false"
+                                android:textColor="@color/app_light_blue"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+                    </ScrollView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="end|top"
+            android:gravity="top|end"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/upload_test_logo"
+                android:layout_width="@dimen/width_300"
+                android:layout_height="@dimen/height_120dp"
+                android:layout_marginTop="@dimen/margin_minus_20"
+                />
+        </LinearLayout>
+
+    </FrameLayout>
+
+    
+</LinearLayout>

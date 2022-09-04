@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="Create PDF" />
+    <LinearLayout
+        android:id="@+id/llPdf"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+
+
+<!--        <ImageView-->
+<!--            android:id="@+id/iv2"-->
+<!--            android:layout_width="300dp"-->
+<!--            android:layout_height="200dp"-->
+<!--            android:layout_marginLeft="30dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:src="@drawable/aroplain_image" />-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:text="Pyramid from Egypt"
+            android:textSize="30sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnScroll"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="Make PDF Of ScrollView"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height_50"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_24"
+        android:id="@+id/pdf_name"
+        android:textColor="@color/white"
+        android:background="@drawable/videos_bg"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/pdf_web_view"/>
+
+
+</LinearLayout>

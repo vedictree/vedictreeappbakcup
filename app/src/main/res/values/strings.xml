@@ -1,0 +1,464 @@
+<resources>
+    <string name="app_name">Vedic Tree Kids Learning</string>
+
+    <!--    Vedic Tree Kids Learning App-->
+    <string name="facebook_app_id">440706497334623</string>
+    <string name="fb_login_protocol_scheme">fb440706497334623</string>
+
+
+    <!--    Login-->
+    <string name="loginMobile">Mobile</string>
+    <string name="loginPassword">Password</string>
+    <string name="loginButton">Login</string>
+    <string name="loginToRegister">Register</string>
+    <string name="forgotPassword">Forgot Password ?</string>
+    <string name="logoString">NAYE ZAMANE KI NAYI SCHOOL </string>
+    <string name="logoString2">NAYE ZAMANE KI... </string>
+    <string name="logoString3">NAYI SCHOOL</string>
+    <string name="signUpString">Sign Up</string>
+    <string name="underlined_text"><u> Sign Up</u></string>
+
+    <!--    Register-->
+    <string name="registerEmail">Email</string>
+    <string name="registerPassword">Password</string>
+    <string name="registerConfirmPassword">Confirm Password</string>
+    <string name="registerMobile">Mobile</string>
+    <string name="registerName">Name</string>
+    <string name="registerButton">Register</string>
+    <string name="registerToLogin">Login</string>
+    <string name="signUplogo">WELCOME BACK </string>
+    <string name="signUplogo2">Sign up to continue to Vedic Tree</string>
+    <string name="label1">Student Name:</string>
+    <string name="label2">Enter email Id:</string>
+    <string name="label3">Student Mobile:</string>
+    <string name="label4">Student Class:</string>
+    <string name="label5">Enter Promo code:</string>
+    <string name="label6">Student Password:</string>
+    <string name="label7">Confirm Password:</string>
+
+
+    <string name="loginAsLabel">Student Gender:</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+
+    <string name="TC12">For EMI process visit our website at: https://www.vedictreeschool.com"</string>
+
+    <!--    Verify OTP-->
+    <string name="verifyNumber">Confirm your Number</string>
+    <string name="otpVerify">Verify OTP</string>
+    <string name="sendOtp">Submit</string>
+    <string name="verifyNumberLabel">Enter Verified Mobile Number</string>
+    <string name="verifyNumberLabelNew">Enter Mobile Number</string>
+
+    <string name="resendOtp">Resend OTP?</string>
+    <string name="submitButton">Submit</string>
+    <string name="mobileNumber">Enter your 10 digit  mobile number</string>
+    <string name="mobile_error">The required Field can not be blank</string>
+    <string name="error_invalid_mobile">Mobile number  is not valid</string>
+    <string name="enterOtp">Enter OTP</string>
+    <string name="enterNewPassword">Enter new password</string>
+    <string name="enterOldPassword">Enter old password</string>
+
+    <!--    Dashboard-->
+    <string name="labelBottomHome">Home</string>
+    <string name="labelBottomProfile">Profile</string>
+
+    <!--    Profile-->
+    <string name="studentNameLabel">Student Name:</string>
+    <string name="contactNumberLabel">Contact Number:</string>
+    <string name="emailLabel">Email ID:-</string>
+    <string name="courseLabel">Course Name:</string>
+
+    <!--    Edit Profile-->
+    <string name="editProfileStudent">Student</string>
+    <string name="editProfileFather">Father</string>
+    <string name="editProfileMother">Mother</string>
+
+    <!--    Student Profile-->
+    <string name="studentName">Name:</string>
+    <string name="studentFatherName">Father Name:-</string>
+    <string name="studentSurnameName">Surname:</string>
+    <string name="studentReligionName">Religion:-</string>
+    <string name="studentCasteName">Caste:-</string>
+    <string name="studentSubCasteName">Sub caste:-</string>
+    <string name="studentPreviousSchookName">Previous School name:-</string>
+    <string name="studentMotherToungeName">Mother Tongue:-</string>
+    <string name="studentGenderName">Gender:-</string>
+    <string name="studentBirthDate">Date of Birth:-</string>
+    <string name="studentResidentialAdd">Residential Add:</string>
+    <string name="student_save">Save</string>
+
+    <!--    Father Profile-->
+    <string name="firstName">First Name:-</string>
+    <string name="lastName">Last Name:-</string>
+
+    <string name="fatherQualification">Father Qualification:</string>
+    <string name="fatherMobile">Father Mobile Number</string>
+    <string name="fatherAdhar">Father Adhar number:</string>
+    <string name="fatherEmail">Father Email ID:</string>
+    <string name="fatherOffice">Office name and address:</string>
+    <string name="fatherEmergency">Emergency number:</string>
+    <string name="fatherContact">Contact number:</string>
+
+    <!--    Mother Profile-->
+    <string name="motherName">Mother Name:-</string>
+    <string name="motherOccupation">Mother Occupation:</string>
+    <string name="motherMobile">Mother Mobile Number</string>
+    <string name="motherAdhar">Adhar number:-</string>
+    <string name="motherEmail">Mother Email ID:</string>
+    <string name="motherQualification">Mother Qualification:</string>
+    <string name="anySpecificInfo">Any specific information:</string>
+    <string name="landline">Landline number:-</string>
+
+    <!--    Parent Pin-->
+    <string name="submitParentPin">Submit</string>
+    <string name="parentPinLabel">Enter Parent Pin</string>
+    <string name="setParentPin">Set Parent Pin</string>
+
+    <!--    Value Base Education-->
+    <string name="valueEducation">Value Education</string>
+
+    <!--Video Player-->
+    <string name="hello_world">Hello world!</string>
+    <string name="description">Media Controls</string>
+
+    <!--    My Courses-->
+    <string name="myCourseLabel">My Course</string>
+    <string name="myCouserChooseCourse">Choose course:</string>
+
+    <!--    show detail-->
+    <string name="showCourseDetail">COURSE DETAILS</string>
+    <string name="showDetailHD">WATCH VIDEO</string>
+    <string name="showFlexi">FLEXIBLE LEARNING</string>
+    <string name="showProgress">PROGRESS TRACKING</string>
+    <string name="showActivity">INTERACTIVE ACTIVITIES</string>
+    <string name="showParent">PARENT CONTROL</string>
+    <string name="showSelf">SELF PACED LEARNING</string>
+    <string name="showCourse">10 MONTH COURSE</string>
+
+    <string name="activity_main_static">Static Helpers</string>
+    <string name="activity_main_dynamic">Dynamic Helpers</string>
+    <string name="activity_main_instructions">Select the type of deep link you wish to perform. If
+        you know a URI Path for the type of deep link you wish to perform, you may enter it. By
+        leaving it blank, a default URI Path will be used. Hit the GO button once ready!
+    </string>
+    <string name="activity_main_go">GO!</string>
+    <string name="activity_main_launch">Launch Vimeo</string>
+    <string name="activity_main_playstore">View in Play Store</string>
+    <string name="activity_main_select_error">Please choose a deep link type!</string>
+    <string name="activity_main_uri_hint">URI Path</string>
+    <string name="activity_main_type_category">Category</string>
+    <string name="activity_main_type_channel">Channel</string>
+    <string name="activity_main_type_user">User</string>
+    <string name="activity_main_type_vod">VOD</string>
+    <string name="activity_main_type_albums">Albums</string>
+    <string name="activity_main_type_url">Custom URL</string>
+    <string name="activity_main_type_video">Video</string>
+    <string name="activity_main_categories">Show Categories</string>
+    <string name="activity_main_explore">Show Explore</string>
+    <string name="activity_main_watch">Show Watch</string>
+    <string name="activity_main_account">Show Account</string>
+    <string name="activity_main_feed">Show Feed</string>
+    <string name="activity_main_me">Show My Profile</string>
+    <string name="activity_main_notifications">Show Notifications</string>
+    <string name="activity_main_notification_settings">Show Push Notification Settings</string>
+    <string name="activity_main_playlists">Show Playlists</string>
+    <string name="activity_main_upgrade">Show Upgrade</string>
+    <string name="activity_main_upload">Show Upload</string>
+    <string name="activity_main_offline">Show Offline</string>
+    <string name="activity_main_watchlater">Show Watch Later</string>
+    <string name="activity_main_purchases">Show Purchases</string>
+    <string name="activity_main_video_manager">Show Video Manager</string>
+    <string name="activity_main_default_user">ilindy</string>
+    <string name="activity_main_albums_for_user">Show Albums For User Id</string>
+    <string name="activity_main_albums_manager">Show Albums For Logged In User</string>
+    <string name="activity_main_deeplink_failure">Could not perform the following deep link!</string>
+    <string name="activity_main_album_for_id">Show Album For Id</string>
+    <string name="activity_main_default_album_id">3576138</string>
+    <string name="enroll_now">Enroll Now</string>
+    <string name="terms_amp_conditions"><![CDATA[Terms & Conditions]]></string>
+    <string name="show_receipt">Show Receipt</string>
+
+    <!--    Terms and conditions-->
+
+    <!--    <string name="textView152">-Complete your<a href=''> Account Profile</a></string>-->
+    <string name="use_of_the_website">Use of the Website –</string>
+    <string name="useOfWebsite">These terms and conditions establish an official agreement according to the arrangements and rules under the Information Technology Act of 2000, by and between the administrator of the site, being VedicTree Educare Pvt Ltd , an organization appropriately fused under the arrangements of the Companies Act, 1956 (hereinafter alluded to as"Organization") and having its enrolled office at Plot No 23, Amrut Heights, Sector 4, Karanjade, Panvel, Navi Mumbai, Maharashtra 410206 and You. The Company is the approved licensee and affiliate VedicTree Educare Pvt Ltd  through www.VedicTreeSchool.com  (hereinafter alluded to as "Site"). This Agreement for the Terms and Conditions of the utilization of the Companys Website/s (hereinafter alluded to as "Arrangement) depicts certain terms and conditions to access and utilize the Website/s of the Company by a guest or an enlisted client and request items (hereinafter alluded to as the "End User", "You" or "Your")</string>
+    <string name="trademarks">Trademarks-</string>
+    <string name="tradmarkDetail">The brand names, names, logos, and administration marks (by and large "brand names") showed on this site are brand names of the individual proprietors. Nothing contained on this site thought to be interpreted as conceding any permit or right to you to utilize any brand name without the earlier composed consent of the proprietor.</string>
+    <string name="external_links">External links –</string>
+    <string name="external_linksDetail">Outside connections might be accommodated your comfort, however they are outside the ability to control of the Company and Website and no portrayal is made with respect to their substance. Use or dependence on any outside joins and the substance subsequently gave is at your own danger.</string>
+    <string name="warranties">Warranties –</string>
+    <string name="warrantiesDetail">The Company and Website make no guarantees, portrayals, proclamations or ensures (regardless of whether express, suggested in law, or lingering) in regards to the site.</string>
+    <string name="disclaimer_of_liability">Disclaimer of liability-</string>
+    <string name="disclaimer_of_liabilityDetail"> The Company and Website will not be liable for and disavows all responsibility for any misfortune, obligation, harm (regardless of whether immediate, circuitous or noteworthy), individual injury or cost of any nature at all which might be endured by you or any outsider (counting your organization), because of or which might be inferable, straightforwardly or by implication, to your entrance and utilization of the site, any data contained on the site, your or your organization\'s very own data or material and data sent over our framework. Specifically, neither the Company nor the Website or any outsider or information or substance supplier will be obligated in any capacity to you or to some other individual, firm or enterprise at all for any misfortune, responsibility, harm (regardless of whether immediate or considerable) , individual injury or cost of any nature at all emerging from any postponements, mistakes, blunders in, or exclusion of any offer value data or the transmission thereof, or for any activities taken independence subsequently or occasioned accordingly or by reason of non-execution or interference, or end thereof.</string>
+    <string name="conflict_of_terms">Conflict of terms-</string>
+    <string name="conflict_of_terms2">On the off chance that there is a contention or logical inconsistency between the arrangements of these site terms and conditions and some other pertinent terms and conditions, strategies, or notification, the other applicable terms, and conditions, approaches or notification which relate explicitly to a specific area or module of the site will win in regard of your utilization of the important segment or module of the site.</string>
+    <string name="severability">Severability-</string>
+    <string name="severability2">Any arrangement of any pertinent terms and conditions, strategies and notification, which is or gets unenforceable in any ward, regardless of whether due to being void, shortcoming, lawlessness, unlawfulness or under any circumstance whatever, will, in such purview just and just to the degree that it is so unenforceable, be treated as void and the excess arrangements of any important terms and conditions, approaches and notification will stay in full power and impact.</string>
+    <string name="applicable_laws_choice_of_venue_and_forum">Applicable laws (choice of venue and forum)-</string>
+    <string name="applicable_laws_choice_of_venue_and_forum2">Use of this website shall in all respects be governed by the laws India, regardless of the laws that might be applicable under principles of conflicts of law. The parties agree that the courts located in Mumbai Maharashtra, India shall have exclusive jurisdiction over all controversies arising under this agreement and you agree that venue is proper in those courts.</string>
+    <string name="information_disclaimer">Information Disclaimer-</string>
+    <string name="information_disclaimer2">The information (including, without limitation, advice and recommendations) on the website is intended solely as a general educational aid. Your use of the site is subject to the additional disclaimers and caveats that may appear throughout the website. The Company and Website and its agents assume no responsibilities for any consequence relating directly or indirectly to any action or inaction you take based on the information, services, or other material on the website. While we shall strive to keep the information on the website accurate, complete, and up-to-date, we cannot guarantee, and will not be responsible for, any damage or loss related to the accuracy, completeness, or timeliness of the information on the website.</string>
+    <string name="legal_notice">Legal Notice -</string>
+    <string name="legal_notice2">All substance of this Internet website is ensured by overall intellectual property laws. You may download content just for your own utilization for non-business purposes however change or further propagation of the substance isn\'t allowed. The substance may somehow not be replicated or utilized at all. The proprietors of this website will utilize sensible endeavors to incorporate state-of-the-art and precise data in this Internet webpage, however, make no portrayals, guarantees, or affirmations with respect to the exactness, cash, or fulfillment of the data gave. The proprietors of this webpage will not be obligated for any harm or injury coming about because of your admittance to, or powerlessness to get to, this Internet website or from your dependence on any data gave at this Internet website. This site is for occupants of as well as domiciled in India. This Internet webpage may give connections or references to different destinations yet the proprietors of this website have no duty regarding the substance of such different locales and will not be obligated for any harms or injury emerging from that content. Any connections to different locales are given as just a comfort to the clients of this Internet website. And by and by recognizable data in electronic correspondences to this Internet website is represented by this present webpage\'s Privacy Policy. The Company and Website will be allowed to utilize or duplicate any remaining data in any such correspondences, including any thoughts, creations, ideas, methods, or skill uncovered in that, for any reasons. Such purposes may incorporate revelation to outsiders as well as creating, producing, and additionally advertising products or administrations. The sender of any interchanges to this Internet webpage or in any case to the proprietors of this website will be liable for the substance and data contained in that, including its honesty and precision.</string>
+    <string name="payment_processing">Payment Processing -</string>
+    <string name="payment_processing2">We use Third Party Payment Gateway to process payments securely. We as a merchant shall be under no liability whatsoever in respect of any loss or damage arising directly or indirectly out of the decline of authorization for any Transaction, on Account of the Cardholder having exceeded the preset limit mutually agreed by us with our acquiring bank from time to time.</string>
+    <string name="communication">Communication -</string>
+    <string name="communication2">In the event that a client fills a structure, takes an interest in a challenge, or buys an item, the client consents to get correspondence from the organization or its correspondence accomplices. The Company or its correspondence accomplices may Call the client via telephone, send Electronic sends (email) and Short messages to use with Mobile Numbers (SMS) any place essential for the simplicity of correspondence with the client. The substance of the email and SMS would be constrained by Company and Website and may not be duplicated at any rate. In the event that a client wishes to quit, the client can connect with the organization and will be withdrawn from all interchanges. Until the client quits, the client will keep on getting correspondence from the Company or its correspondence accomplices.</string>
+    <string name="privacyPolicy">Privacy Policy</string>
+
+    <string name="pp1">This Privacy Policy ("Privacy Policy/Policy") uncovers the privacy rehearses for VedicTree Educare  Private Limited ("VedicTree Educare Pvt Ltd", "We/we" or "Us/us") concerning Your ("You/you" or "Your/your") utilization of the website www.VedicTreeschool.com ("Website"). This Privacy Policy alongside Terms of Use portrays our works on in regards to, remembering your decisions for connection to how we gather, store, use, share and secure your own data across our Website. It likewise portrays your decisions with respect to utilize, access and revision of your own data and your privileges according to your own data and how to reach us or administrative experts in the occasion you have a grievance.</string>
+    <string name="pp2">By visiting this Website, you consent to be limited by the terms and states of this Privacy Policy. If it\'s not too much trouble, read this Privacy Policy cautiously. By utilizing the Website, you demonstrate that you comprehend, concur and agree to this Privacy Policy. On the off chance that you disagree with the provisions of this Privacy Policy, kindly don\'t utilize/access this Website.</string>
+    <string name="pp3">We\'ll audit this Privacy Policy every once in a while to ensure it is forward-thinking. Assuming you are only a guest, if it\'s not too much trouble, note that this Privacy Policy is liable to change whenever without notice. To ensure you know about any changes, kindly audit this Policy occasionally. In the event that you are our enrolled client, we will tell you before we make changes to this Policy and offer you the chance to survey the reconsidered Policy before you decide to keep utilizing our administrations.By Personal Data, we mean any information that can either itself identify you as an individual ("Personally Identifying Information ") or that can be connected to you indirectly by linking it to Personally Identifying Information</string>
+    <string name="pp4">COLLECTION OF INFORMATION</string>
+    <string name="pp5">As a guest, you can peruse our Website to discover more about our Website. You are not needed to furnish us with any Personal Data as a guest. At the point when you visit the Site, we gather and store certain data to improve security, dissect drifts and direct the Website so as to help us in improving client experience. We utilize this data to assess traffic designs on our Website so we can make it more valuable to our guests.</string>
+    <string name="pp6">We gather your Personal Data when you register with us, when you express an interest in acquiring data about us or our items and administrations, when you partake in exercises on our Website or in any case reach us.</string>
+    <string name="pp7">We will just gather your Personal Data on the off chance that we have an appropriate justification doing as such, e.g.: to follow our lawful and administrative commitments; for the exhibition of our agreement with you or to make strides at your solicitation prior to going into an agreement; for our authentic advantages or those of an outsider; or where you have given assent. A real interest is the point at which we have a business or business motivation to utilize your data, insofar as this isn\'t abrogated by your own privileges and interests. At times, we may likewise have a lawful commitment to gather individual data from you or may somehow require the individual data to secure your essential advantages or those of someone else (for instance, to forestall installment misrepresentation or affirm your personality</string>
+    <string name="pp8">Our essential objective in gathering your Personal Data and other individual data is to give you a protected, proficient, smooth and redid experience. This permits us to give courses, study material, instructional exercises that most probable address your issues and to redo our Website to make your experience more secure and simpler. We additionally utilize your Personal Identifiable Information along with other Personally Non-Identifiable Information to assist us with bettering our clients and to improve the substance and usefulness of our Website. The data we gain from you assists us with customizing and consistently improve your involvement with our Website. We don\'t willfully make this data accessible to outsiders, nor do we use it for some other reason, besides as set out thus.</string>
+    <string name="pp10">At the point when you visit our Website, as a component of an acquisition of one of our courses or enrolling on our Website, we may gather an assortment of data that you will intentionally give to us by means of one of our contact structures, through a talk or telephone meeting (Personal Identifying Information, for example,</string>
+    <string name="p11">•	Contact Information, such as name, email address, display picture, mailing address, phone number, IP address, geographic location, or phone number</string>
+    <string name="pp12">•	Information to enable us to check and verify your identity, e.g. your date of birth, mark-sheets, Passport/Aadhar /Voter ID details;</string>
+    <string name="pp13">•	Billing Information, such as debit card number, credit card number and billing address;</string>
+    <string name="pp14">•	Unique Identifiers, such as username or password;</string>
+    <string name="pp15">•	Reviews or ratings, syllabus and course preferences, account settings, (including preferences set in the " Account " section of our Website); and</string>
+    <string name="pp16">•	Information provided to us through our service, interaction with our customer service, participation in surveys or marketing promotions.</string>
+    <string name="pp17">We gather data about you and your utilization of our administration, your associations with us just as data in regards to your PC or other gadget used to get to our administration). This data remembers your movement for our Website, like classes, study materials, courses, and search inquiries;</string>
+    <string name="pp18">subtleties of your cooperations with client care, like the date, time, and justification reaching us, records of any talk discussions, and in the event that you call us, your telephone number and call chronicles; gadget IDs or other one of a kind identifiers, gadget and programming attributes (like sort and setup), association data, measurements on online visits, alluding source ( for instance, reference URLs ), IP address (which may disclose to us your overall area), program and standard web worker log data, data gathered by means of the utilization of treats, web signals and different advancements.</string>
+    <string name="pp19">With the assistance of back-end applications, we target offering better types of assistance and better cooperation with educators, contingent upon the recipient\'s line of interest. We likewise may request this data at different occasions, for example, when you participate in challenges or different advancements supported by us or potentially our accomplices. On the off chance that you utilize an element that requires installment of charge choices like NEFT or Card will show up. In the event of installments through credit or check card, we will divert you to enrolled installment doors, for example, razorpay, ccavenue, payubiz and other such enlisted passages. You may store and save your installment subtleties like card numbers with the passage. We don\'t approach this information. All installment exchanges are prepared through secure installment door suppliers. We don\'t store any card data (other than the last 4 digits of your card) in our workers.</string>
+    <string name="pp20">We utilize the individual data we gather, including your Personal Data where it is important to convey the administrations you have mentioned, where it is important to practice or conform to lawful rights or commitments, or for typical business motivations behind the caring set out in this Policy.</string>
+    <string name="pp21">We will utilize your own data to give, dissect, regulate and improve our administrations, to give you a customized insight on our Website (particularly, by offering you benefits that is most appropriate for you), to reach you about your record and our administrations, to give you client care, to furnish you with customized promoting and to recognize, forestall, relieve and examine fake or criminal operations.</string>
+    <string name="pp22">We further utilize your own data to decide your overall geographic area, give limited courses and classes, give you redid and customized study material, suggestions, decide your Internet specialist co-op, and help us rapidly and productively react to requests and demands and upholding our terms, (for example, deciding free preliminary qualification) and speak with you concerning our administration (for instance by email, message pop-ups, text informing, and web-based informing channels), so we can send you insights regarding new highlights and substance accessible on the Website, extraordinary offers, limited-time declarations, reviews, and to help you with operational demands, for example, secret word reset demands.</string>
+    <string name="pp23">Community </string>
+
+    <string name="pp24">VedicTree Educare Pvt Ltd is a Community. We offer a few highlights that permit individuals to associate and convey in broad daylight or semi-public spaces, like Forums and Teams. Kindly be reasonable and judge prior to posting locally spaces or offering your own data to others on VedicTree Educare Pvt Ltd. Know that any close to home data you submit there can be perused, gathered, or utilized by others, or could be utilized to send you spontaneous messages.</string>
+    <string name="pp25">SHARING AND DISCLOSING PERSONAL INFORMATION </string>
+    <string name="pp26">We utilize different organizations, specialists, or workers for hire ("Service Providers") to perform administrations for our sake or to help us with the arrangement of administrations to you. We draw in Service Providers to give promoting, publicizing, correspondences, framework and IT administrations, to customize and upgrade our administration, to handle charge card exchanges or other installment techniques, to give client assistance, to gather obligations, to break down and improve information (counting information about clients cooperations with our administration), and to measure and oversee buyer studies. Throughout offering such types of assistance, these Service Providers may approach your own or other data.</string>
+    <string name="pp27">We don\'t approve them to utilize or unveil your own data besides regarding offering their types of assistance.</string>
+    <string name="pp28">SECURITY </string>
+    <string name="pp29">We will attempt to avoid potential risk to ensure the individual data both on the web and disconnected. We will attempt to ensure your data utilizing specialized and authoritative security measures to diminish the dangers of misfortune, abuse, unapproved access, divulgence and adjustment. We have standard SSL certificate which essentially assists us with making a safe association between our worker and client to deliver any data or activity. A portion of the shields we use are firewalls and information encryption, actual access controls to our server farms and data access approval controls. Just client passwords are scrambled in 64-digit encryption and put away on the grounds that by and large clients utilize similar secret word on various locales, to forestall any sort of burglary, theft or unapproved access. In the event that you accept your record has been manhandled or hacked, if its not too much trouble, get in touch with us by sending us an email at info@VedicTree Educare Pvt Ltd.com.</string>
+    <string name="pp30">We dont sell, move or lease your own data to outsiders for their advertising purposes without your express assent and we just utilize your data as depicted in the Privacy Policy. We see assurance of your security as a vital local area standard. We see unmistakably that you and your Information is one of our most significant resources. We store and interaction your own data on PCs situated in India that are ensured by physical just as innovative security gadgets. We utilize outsiders to confirm and ensure our security standards. On the off chance that you object to your Information being moved or utilized along these lines, kindly dont utilize this Website.</string>
+    <string name="pp31">By no means, we lease, exchange, move or offer your own data that we have gathered with some other organization for their advertising purposes without your assent. We maintain all authority to convey your own data to any outsider that makes a legitimately consistent solicitation for its exposure.</string>
+    <string name="pp32">Keeping your Personal Data secure.</string>
+    <string name="pp33">We have appropriate security measures to prevent your Personal Data from being accidentally lost or used or accessed unlawfully. Processing your Personal Data will be done only in an authorized manner and subject to a duty of confidentiality. We also have procedures–in place to deal with any suspected data security breach. We will notify you about any applicable regulator of a suspected data security breach where we are legally required to do so.Notwithstanding anything contained anywhere in this Agreement; we cannot assure absolute security to your personal data and by entering into or by logging into our website, you explicitly agree not to sue us for any data breach.</string>
+    <string name="pp34">COOKIES</string>
+    <string name="pp35">We transfer cookies, which are small files containing a string of character, to your IP address, giving the browser distinct identification, in order to keep track of the user’s preferences. Furthermore, these files also help in logging-in faster and they act as a mechanism to determine user trends. The data thus retrieved from the user’s IP address, enables us to enhance our offers, including but not limited to more content in areas of greater interest to a majority of users.Our Website uses "Cookies" to identify the areas of our Website that you have visited. A Cookie is a small piece of data stored on your computer or mobile device by your web browser. We use Cookies to personalize the Content that you see on our Website. Most web browsers can be set to disable the use of Cookies. However, if you disable Cookies, you may not be able to access functionality on our Website correctly or at all. We never place Personally Identifiable Information in Cookies.</string>
+
+    <string name="rf1">Payment and Refunds</string>
+    <string name="rf2">We use Third Party Payment Gateway to process payments securely. We as a merchant shall be under no liability whatsoever in respect of any loss or damage arising directly or indirectly out of the decline of authorization for any Transaction, on Account of the Cardholder having exceeded the preset limit mutually agreed by us with our acquiring bank from time to time.</string>
+    <string name="rf3">if, as a Student, you wish to cancel a confirmed enrolment made via the Site or the Application, after enrolment to the Course, the cancellation policy contained in the applicable Listing will apply to such cancellation provided that no refund will be made in respect of tuitions already provided. Our ability to refund the Course Fees and other amounts charged to you will depend upon the terms of the applicable cancellation policy and financial charges applicable in case of course payment through No Cost EMI options. Details regarding refunds and cancellation policies are available via the Site and Application. VedicTree Educare Pvt Ltd will Not initiate any refunds due pursuant to the Payments Terms. All our Products are Non- Refundable.</string>
+    <string name="rf4">If We cancel a confirmed enrolment made via the Site, Services, and Application, (i) VedicTree Educare Pvt Ltd will refund the Course Fees paid by the Student for such enrolment to the applicable Student pursuant to the Payments Terms which shall not exceed the total amount paid by the Student.</string>
+
+    <string name="sp1">Shipment Policy </string>
+    <string name="sp2">We ship to almost all locations in India where there is reach of the Indian Postal Network.</string>
+    <string name="sp3">When you place an order, the estimated shipping/dispatch and estimated delivery time will be specified based on the availability of the item, your delivery location and coverage by our empanelled couriers. Generally the dispatch timeline falls under below categories:</string>
+    <string name="sp4">In stock:</string>
+    <string name="sp5">All the items will clearly mention the approximate shipping time.</string>
+    <string name="sp6">Please allow 24-48 hours for processing, as we do not ship out on weekends or holidays. You can expect the delivery within 5-7 Business days (In areas where standard courier service is available).</string>
+    <string name="sp8">Shipping Period</string>
+    <string name="sp9">Our books are placed for shipment immediately after the enrolment. The maximum turnaround time is 30 days for Shipment  </string>
+    <string name="sp10">Our courier: FedEx courier, India Postal Service , DTDC and EZship .</string>
+    <string name="sp11">Major destinations are serviced by known national courier companies and deliveries normally take 1-4 days. You can track the status and location of your parcel after dispatch on the respective courier\'s website using the parcel\'s tracking code. Remote locations where there is no coverage by our empaneled couriers get serviced through India Post, a Government of India undertaking. Delivery through India Post normally takes longer and could extend to more than 2 weeks for some locations and rare situations.</string>
+    <string name="sp12">Kindly be patient - inform us if there is an inordinate delay and we will follow up with India Post.</string>
+    <string name="sp13">If you have any questions regarding shipping feel free to e-mail us at info@VedicTreeSchool.com and we would be happy to help.</string>
+
+
+    <!--    <string name="video_url">https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4</string>-->
+    <string name="app_id">C0868879</string>
+    <!--    <string name="play_video">Play Video</string>-->
+    <!--    <string name="pause_video">Pause Video</string>-->
+    <!--    <string name="resume_video">Resume Video</string>-->
+    <!--    <string name="video_title">Paul\'s Chromecast Video Stream</string>-->
+    <!--    <string name="content_type_mp4">video/mp4</string>-->
+
+
+    <!--    Emi process-->
+    <string name="emiStudentName">Student Name:-</string>
+    <string name="StudentDOB">Student date of birth:-</string>
+    <string name="courseId">Course ID:-</string>
+    <string name="branchId">Branch Id:-</string>
+    <string name="amountEmi">Amount:-</string>
+    <string name="emiMode">Emi Mode:-</string>
+    <string name="student_reference_no">Student Reference No:-</string>
+    <string name="applicant_name">Applicant Name:-</string>
+    <string name="applicant_gender">Applicant Gender:-</string>
+    <string name="applicant_dob">Applicant Dob:-</string>
+    <string name="mobileNum">Mobile:-</string>
+    <string name="emailId">Email-</string>
+    <string name="aadhar_no">Aadhaar No:-</string>
+    <string name="marital_status">Marital Status:-</string>
+    <string name="pan_no">Pan No:-</string>
+    <string name="profession">Profession:-</string>
+    <string name="employer_name">Employer Name:-</string>
+    <string name="annual_income">Annual Income:-</string>
+    <string name="relationship_with_student">Relationship with student:-</string>
+    <string name="particulars">PARTICULARS</string>
+    <string name="pay_now">PAY NOW</string>
+    <string name="shining_star">Shining star</string>
+    <string name="vedic_tree">VEDIC TREE</string>
+    <string name="golden_star">Golden star</string>
+    <string name="superstar">SuperStar</string>
+    <string name="twinking_star">Twinkling star</string>
+    <string name="nursery">Nursery</string>
+    <string name="amount">AMOUNT</string>
+    <string name="annual_fees">ANNUAL FEES</string>
+    <string name="books">BOOKS</string>
+    <string name="total_fees">TOTAL FEES</string>
+    <string name="gst_18">GST(@18%)</string>
+    <string name="total_amount">TOTAL AMOUNT</string>
+    <string name="todo">TODO</string>
+    <string name="parent_string">Parent Zone</string>
+    <string name="next">Next</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="change_password">Change Password</string>
+    <string name="share_app">Share App</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="refferal_code_vedic_276">Referral code: VEDIC-276</string>
+    <string name="sonali">Sonali</string>
+    <string name="present_section">Present Section</string>
+    <string name="_15_august_2021">15 August 2021</string>
+    <string name="independence_day">INDEPENDENCE DAY</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="value_based_education">Festival &amp; Celebration</string>
+
+    <!--    Progress Report-->
+    <string name="progressReport">Progress Report</string>
+    <string name="as_per_sessions">*As per sessions</string>
+    <string name="student_progress">Student Progress</string>
+    <string name="working_hours">Working Hours</string>
+    <string name="live_sessions_attendance">Live sessions attendance</string>
+    <string name="as_per_daily_basis">*As per daily basis</string>
+    <string name="categories">Categories</string>
+    <string name="enter_mobile_number">Enter mobile number:-</string>
+    <string name="reset_parent_pin">Reset Parent Pin</string>
+    <string name="school_fees">SCHOOL FEES</string>
+    <string name="kit_charges">KIT CHARGES</string>
+    <string name="city">City:-</string>
+    <string name="state">State:-</string>
+    <string name="country">Country:-</string>
+    <string name="address">Address:-</string>
+    <string name="address_2">Address 2:-</string>
+
+    <string name="email_error">Please enter a email address</string>
+    <string name="error_invalid_email">Email is not valid</string>
+    <string name="promo_code">Promo Code</string>
+    <string name="add_promo_code">Add Promo Code</string>
+    <string name="enter_promo_code">Enter promo code</string>
+    <bool name="isTablet">false</bool>
+
+
+    <!--    Notification-->
+    <string name="NEWS_CHANNEL_ID">news</string>
+    <string name="CHANNEL_NEWS">News</string>
+    <string name="CHANNEL_DESCRIPTION">Get informed with new updates</string>
+
+    <string name="NOTI_CHANNEL_ID">noti</string>
+    <string name="CHANNEL_NOTI">Notification</string>
+    <string name="CHANNEL_DESCRIPTION_NOTI">Get informed with notification updates</string>
+
+    <string name="HOME_CHANNEL_ID">home</string>
+    <string name="CHANNEL_HOME">Homework</string>
+    <string name="CHANNEL_DESCRIPTION_HOME">Get informed with homework updates</string>
+
+    <!--    New UI-->
+    <!--    Login-->
+    <string name="new_username">MOBILE</string>
+    <string name="new_password">PASSWORD</string>
+    <string name="new_forgot_password">FORGOT PASSWORD ? </string>
+    <string name="new_login">LOGIN</string>
+    <string name="new_signup">SIGN UP</string>
+
+    <!--    SignUp-->
+
+    <string name="mobileNoStr">MOBILE NO</string>
+    <string name="new_class">CLASS</string>
+    <string name="new_gender">GENDER</string>
+    <string name="email_id">EMAIL</string>
+    <string name="new_studetn_name">STUDENT NAME</string>
+
+    <!--    Google Cast-->
+    <string name="action_settings">Settings</string>
+    <string name="cast_app_name">GoogleCastPlayer</string>
+    <string name="media_route_menu_title">Play on&#8230;</string>
+    <string name="list_of_videos">Select a Video Clip</string>
+    <string name="ok">OK</string>
+    <string name="no_device">(No Device Selected)</string>
+    <string name="error">Error</string>
+    <string name="stop">Stop</string>
+    <string name="mute">Mute</string>
+    <string name="unmute">Unmute</string>
+    <string name="loading">Loading&#8230;</string>
+    <string name="no_video_found">No video was found</string>
+    <string name="about_app">About Cast Videos</string>
+    <string name="version">CastVideos: %1$s</string>
+    <string name="session_reconnection_attempt">Attempting to recover previous
+        session&#8230;</string>
+    <string name="introducing_cast">Introducting Cast</string>
+
+    <!-- Error messages -->
+    <!-- onApplicationConnectionFailed() errors -->
+    <string name="failed_to_set_volume">Failed to set the volume</string>
+    <string name="failed_to_launch_app">Failed to launch application</string>
+    <string name="failed_to_set_mute">Failed to adjust the volume mute</string>
+    <string name="failed_to_find_app">The application you are trying to launch is not available on
+        your Google Cast device
+    </string>
+    <string name="failed_app_launch_timeout">The request to launch the application has timed out!
+    </string>
+    <string name="failed_to_play">Failed to start the playback of media</string>
+    <string name="failed_to_pause">Failed to pause the playback of media</string>
+    <string name="failed_to_connect">Could not connect to the device</string>
+    <string name="failed_to_seek">Failed to seek to the specified position on the remote device
+    </string>
+    <string name="video_error_media_load_timeout">Media loading timed out</string>
+    <string name="video_error_server_unaccessible">Media server was not reachable</string>
+    <string name="video_error_unknown_error">Failed to load video</string>
+    <string name="connection_temp_lost">Connection to the cast device is temporarily lost</string>
+    <string name="connection_recovered">Connection to the cast device is recovered</string>
+    <string name="connection_lost_retry">Connection to the cast device has been temporarily lost.
+        Application is trying to recover connection, please try again later
+    </string>
+    <string name="connection_lost">No connection to the cast device exist</string>
+    <string name="failed_to_perform_action">Sorry, ran into issues performing the task you wanted
+    </string>
+    <string name="oops">Oops</string>
+
+    <!-- Preferences -->
+    <string name="prefs_header_application">Application Behavior</string>
+    <string name="prefs_header_application_summary">Control how the application behaves on the TV
+    </string>
+    <string name="prefs_termination_policy_default">0</string>
+    <string name="prefs_termination_policy_dialog_title">When Disconnecting</string>
+    <string name="prefs_volume_title">Volume Assignment</string>
+    <string name="prefs_volume_title_summary">Controls %1$s</string>
+    <string name="prefs_volume_dialog_title">Volume Assignment</string>
+    <string name="prefs_volume_default">device</string>
+    <string name="title_activity_test">TestActivity</string>
+
+    <!-- Tabs -->
+    <string name="tab_videos_title">Videos</string>
+    <string name="tab_music_title">Songs</string>
+    <string name="tab_photos_title">Photos</string>
+
+    <!-- ShowCaseView -->
+    <string name="touch_to_cast">Touch to cast videos to your TV</string>
+
+    <!-- Captions -->
+    <string name="captions_settings">Captions Settings</string>
+    <string name="captions">Captions</string>
+
+    <!-- Queue -->
+    <string name="show_queue">Show Queue</string>
+    <string name="queue_list">Queue</string>
+    <string name="transition_image">transition-image</string>
+    <string name="queue_empty">Queue is empty!</string>
+    <string name="queue_tag_item">queue-tag-item</string>
+    <string name="play_now">Play Now</string>
+    <string name="play_next">Play Next</string>
+    <string name="add_to_queue">Add to Queue</string>
+    <string name="action_clear_queue">Clear Queue</string>
+    <string name="queue_item_added_to_play_next">An item was added to play next</string>
+    <string name="queue_item_added_to_queue">An item was added to the queue</string>
+
+    <!--    Google Cast-->
+</resources>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login_bg"
+    tools:context="com.vedictree.preschool.PromoCode">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="bottom|center"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="bottom"
+                android:src="@drawable/ic_logo_tree"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginHorizontal="@dimen/horizontal_margin_40dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="@string/add_promo_code"
+                android:textColor="@color/white"
+                android:fontFamily="@font/reglisse_fill"
+                android:textSize="@dimen/text_16"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/PromoCodeText"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/white"
+                android:hint="@string/enter_promo_code"
+                android:textColorHint="@color/white"
+                android:textSize="@dimen/text_size"
+                android:maxLength="12"
+                android:fontFamily="@font/reglisse_fill"
+                android:background="@drawable/rect_edittext_bg"
+                android:singleLine="true"
+                android:gravity="center" />
+
+
+            <Button
+                android:id="@+id/sendPromoCodeButton"
+                android:layout_width="150dp"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/reglisse_fill"
+                android:textSize="@dimen/text_16"
+                android:background="@drawable/login_button_bg"
+                android:text="@string/submitButton"
+                android:paddingBottom="5dp"
+                android:textColor="@color/white" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <ImageView
+                android:id="@+id/verify_otp_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+               />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

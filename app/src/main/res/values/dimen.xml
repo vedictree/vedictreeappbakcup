@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="horizontal_margin_40dp">40dp</dimen>
+    <dimen name="horizontal_margin_20dp">20dp</dimen>
+    <dimen name="horizontal_margin_10dp">10dp</dimen>
+    <dimen name="horizontal_margin_50">50dp</dimen>
+    <dimen name="horizontal_margin_20dp_land">20dp</dimen>
+    <dimen name="row_40dp">40dp</dimen>
+    <dimen name="button_land_60dp">50dp</dimen>
+    <dimen name="padding_15">15dp</dimen>
+    <dimen name="padding_10">1dp</dimen>
+
+    <dimen name="text_size">14sp</dimen>
+    <dimen name="text_16">16sp</dimen>
+    <dimen name="text_24">24sp</dimen>
+    <dimen name="text_20">20sp</dimen>
+    <dimen name="text_18">18sp</dimen>
+    <dimen name="text_22">22sp</dimen>
+    <dimen name="text_25">23sp</dimen>
+    <dimen name="text_18_dashboard">15sp</dimen>
+
+    <dimen name="text_11">11sp</dimen>
+    <dimen name="text_12">12sp</dimen>
+
+
+    <dimen name="activity_top_margin_20dp">20dp</dimen>
+    <dimen name="activity_top_margin_5dp">5dp</dimen>
+    <dimen name="margin_start_25dp">25dp</dimen>
+
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="material_button_min_width">88dp</dimen>
+    <dimen name="item_separator_margin">12dp</dimen>
+
+    <dimen name="margin_bottom">25dp</dimen>
+    <dimen name="video_hotizontal_margin">10dp</dimen>
+    <dimen name="image_height">100dp</dimen>
+    <dimen name="button_width_200">200dp</dimen>
+    <dimen name="button_height_70">60dp</dimen>
+    <dimen name="horizontal_margin">25dp</dimen>
+    <dimen name="button_width_250">250dp</dimen>
+    <dimen name="button_height_60">60dp</dimen>
+
+    <dimen name="my_course_item_height">200dp</dimen>
+    <dimen name="my_course_item_width">250dp</dimen>
+    <dimen name="vertical_margin_0dp">0dp</dimen>
+    <dimen name="text_size_40">40sp</dimen>
+    <dimen name="button_height_50">40dp</dimen>
+    <dimen name="button_width_150dp">100dp</dimen>
+    <dimen name="button_width_75dp">-100dp</dimen>
+
+    <dimen name="button_30">30dp</dimen>
+    <dimen name="button_80">90dp</dimen>
+    <dimen name="button_175">150dp</dimen>
+    <dimen name="margin_horizontal_25">25dp</dimen>
+    <dimen name="button_width_180dp">180dp</dimen>
+
+    <dimen name="margin_15dp">15dp</dimen>
+    <dimen name="height_25dp">25dp</dimen>
+    <dimen name="text_size_20sp">20sp</dimen>
+    <dimen name="button_180dp">180dp</dimen>
+
+    <dimen name="quiz_100dp">100dp</dimen>
+
+    <dimen name="quiz_150dp">150dp</dimen>
+    <dimen name="button_120dp">120dp</dimen>
+    <dimen name="button_45dp">45dp</dimen>
+
+<!--    New UI dimensions-->
+    <dimen name="padding_5dp">10dp</dimen>
+    <dimen name="padding_10dp">15dp</dimen>
+    <dimen name="padding_20dp">20dp</dimen>
+    <dimen name="horizontal_5dp">10dp</dimen>
+    <dimen name="padding_10_dp">10dp</dimen>
+    <dimen name="quiz_100dp_half">70dp</dimen>
+    <dimen name="quiz_150_dp">170dp</dimen>
+
+    <dimen name="text_size_30sp">30sp</dimen>
+    <dimen name="padding_5">5dp</dimen>
+
+    <dimen name="margin_20dp">20dp</dimen>
+    <dimen name="margin_5dp">5dp</dimen>
+    <dimen name="bottom_margin_28dp">38dp</dimen>
+    <dimen name="width_400">400dp</dimen>
+    <dimen name="margin_minus_5">-5dp</dimen>
+    <dimen name="margin_horizontal_25_dp">15dp</dimen>
+    <dimen name="button_40">40dp</dimen>
+    <dimen name="height_40dp">40dp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="margin_2">2dp</dimen>
+    <dimen name="height_100">100dp</dimen>
+    <dimen name="width_220">220dp</dimen>
+    <dimen name="padding_1">2dp</dimen>
+    <dimen name="width_300">300dp</dimen>
+    <dimen name="height_120dp">140dp</dimen>
+    <dimen name="margin_0">1dp</dimen>
+    <dimen name="margin_1">2dp</dimen>
+    <dimen name="margin_3">3dp</dimen>
+    <dimen name="margin_4">7dp</dimen>
+
+    <dimen name="margin_7">7dp</dimen>
+    <dimen name="margin_0dp">20dp</dimen>
+    <dimen name="width_80dp">80dp</dimen>
+    <dimen name="width_40dp">40dp</dimen>
+    <dimen name="width_120dp">120dp</dimen>
+    <dimen name="margin_15">15dp</dimen>
+    <dimen name="height_70dp">70dp</dimen>
+    <dimen name="margin_8dp">8dp</dimen>
+    <dimen name="left_10dp">15dp</dimen>
+    <dimen name="vert_5">5dp</dimen>
+    <dimen name="vert_7">7dp</dimen>
+    <dimen name="text_16sp">16sp</dimen>
+    <dimen name="width_30dp">35dp</dimen>
+    <dimen name="margin_2_dp">2dp</dimen>
+    <dimen name="half_top">50dp</dimen>
+    <dimen name="top_90">90dp</dimen>
+    <dimen name="margin_25">20dp</dimen>
+    <dimen name="width_150">200dp</dimen>
+    <dimen name="text_27">24sp</dimen>
+    <dimen name="margin_30">45dp</dimen>
+    <dimen name="height_50">40dp</dimen>
+    <dimen name="text_20sp">20sp</dimen>
+    <dimen name="height_40">50dp</dimen>
+    <dimen name="margin_minus_20">-20dp</dimen>
+    <dimen name="vert_10dp">5dp</dimen>
+    <dimen name="text_21">21sp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="margin_12">45dp</dimen>
+    <dimen name="margin_11">12dp</dimen>
+    <dimen name="width_160">170dp</dimen>
+    <dimen name="width_120">90dp</dimen>
+    <dimen name="minus_20">-15dp</dimen>
+    <dimen name="padding_20">10dp</dimen>
+
+    <dimen name="vert_12">10dp</dimen>
+    <dimen name="margin_2dp">2dp</dimen>
+    <dimen name="text_size_25sp">23sp</dimen>
+    <dimen name="margin_20_dp">15dp</dimen>
+    <dimen name="width_120_dp">150dp</dimen>
+    <dimen name="width_150_dp">220dp</dimen>
+    <dimen name="half_width_120_dp">60dp</dimen>
+    <dimen name="margin_30dp">30dp</dimen>
+    <dimen name="margin_25dp">15dp</dimen>
+    <dimen name="width_20">25dp</dimen>
+    <dimen name="margin_35dp">15dp</dimen>
+    <dimen name="margin_top_30">30dp</dimen>
+    <dimen name="margin_top_60">60dp</dimen>
+    <dimen name="text_14">14sp</dimen>
+    <dimen name="height_50dp">50dp</dimen>
+    <dimen name="height_50_dp">50dp</dimen>
+    <dimen name="top_12dp">5dp</dimen>
+
+    <dimen name="width_250dp">250dp</dimen>
+    <dimen name="left_35">35dp</dimen>
+    <dimen name="button_width_180">180dp</dimen>
+    <dimen name="width_150dp">150dp</dimen>
+    <dimen name="top_5dp">12dp</dimen>
+    <dimen name="margin_15_dp">15dp</dimen>
+
+
+</resources>

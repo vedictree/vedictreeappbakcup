@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/transparent"
+    tools:context="com.vedictree.preschool.FatherFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginHorizontal="@dimen/horizontal_margin_10dp"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_image_father"
+                    android:layout_width="@dimen/image_height"
+                    android:layout_height="@dimen/image_height"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/horizontal_margin_10dp"
+                    android:elevation="20dp"
+                    android:src="@drawable/parent_dashboard_girl"
+                    app:civ_border_color="@color/app_orange_two"
+                    app:civ_border_overlay="@color/app_orange_two"
+                    app:civ_border_width="2dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/drawable_edit_text"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/activity_top_margin_5dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="center"
+                        android:text="@string/firstName"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_16"
+                       />
+
+                    <EditText
+                        android:id="@+id/fatherName"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        android:drawablePadding="10dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="left|center"
+                        android:inputType="textPersonName"
+                        android:padding="8dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        android:textSize="@dimen/text_16"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/drawable_edit_text"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/activity_top_margin_5dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="center"
+                        android:text="@string/lastName"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_16"
+                         />
+
+                    <EditText
+                        android:id="@+id/fatherLastName"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        android:drawablePadding="10dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="left|center"
+                        android:inputType="textPersonName"
+                        android:padding="8dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        android:textSize="@dimen/text_16"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="@dimen/activity_top_margin_5dp"
+                    android:background="@drawable/drawable_edit_text"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/activity_top_margin_5dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="center"
+                        android:text="@string/fatherEmail"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_16"
+                         />
+
+                    <EditText
+                        android:id="@+id/fatherEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        android:drawablePadding="10dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="left|center"
+                        android:inputType="textPersonName"
+                        android:padding="8dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        android:textSize="@dimen/text_16"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="@dimen/activity_top_margin_5dp"
+                    android:background="@drawable/drawable_edit_text"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/activity_top_margin_5dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="center"
+                        android:text="@string/fatherMobile"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_16"
+                        />
+
+                    <EditText
+                        android:id="@+id/fatherMobile"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        android:drawablePadding="10dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="left|center"
+                        android:inputType="textPersonName"
+                        android:padding="8dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        android:textSize="@dimen/text_16"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="@dimen/activity_top_margin_5dp"
+                    android:background="@drawable/drawable_edit_text"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/activity_top_margin_5dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="center"
+                        android:text="@string/fatherAdhar"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_16"
+                        />
+
+                    <EditText
+                        android:id="@+id/fatherAdhar"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        android:drawablePadding="10dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="left|center"
+                        android:inputType="textPersonName"
+                        android:padding="8dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        android:textSize="@dimen/text_16"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="@dimen/activity_top_margin_5dp"
+                    android:background="@drawable/drawable_edit_text"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/activity_top_margin_5dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="center"
+                        android:text="@string/studentReligionName"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_16"
+                        />
+
+                    <EditText
+                        android:id="@+id/fatherReligion"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        android:drawablePadding="10dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="left|center"
+                        android:inputType="textPersonName"
+                        android:padding="8dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        android:textSize="@dimen/text_16"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="@dimen/activity_top_margin_5dp"
+                    android:background="@drawable/drawable_edit_text"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/activity_top_margin_5dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="center"
+                        android:text="@string/studentCasteName"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_16"
+                        />
+
+                    <EditText
+                        android:id="@+id/fatherCast"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        android:drawablePadding="10dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="left|center"
+                        android:inputType="textPersonName"
+                        android:padding="8dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        android:textSize="@dimen/text_16"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="@dimen/activity_top_margin_5dp"
+                    android:background="@drawable/drawable_edit_text"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/activity_top_margin_5dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="center"
+                        android:text="@string/studentSubCasteName"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_16"
+                        />
+
+                    <EditText
+                        android:id="@+id/fatherSubCast"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        android:drawablePadding="10dp"
+                        android:fontFamily="@font/poppin"
+                        android:gravity="left|center"
+                        android:inputType="textPersonName"
+                        android:padding="8dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        android:textSize="@dimen/text_16"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="@dimen/activity_top_margin_5dp"
+                    android:background="@drawable/drawable_edit_text"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/activity_top_margin_5dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="center"
+                        android:text="@string/studentMotherToungeName"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_16"
+                        />
+
+                    <EditText
+                        android:id="@+id/fatherMotherTounge"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        android:drawablePadding="10dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="left|center"
+                        android:inputType="textPersonName"
+                        android:padding="8dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        android:textSize="@dimen/text_16"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="@dimen/activity_top_margin_5dp"
+                    android:background="@drawable/drawable_edit_text"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/activity_top_margin_5dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="center"
+                        android:text="@string/address"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_16"
+                        />
+
+                    <EditText
+                        android:id="@+id/fatherOffice"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        android:drawablePadding="10dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="left|center"
+                        android:inputType="textPersonName"
+                        android:padding="8dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        android:textSize="@dimen/text_16"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="@dimen/activity_top_margin_5dp"
+                    android:background="@drawable/drawable_edit_text"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/address_2"
+                        android:layout_marginStart="@dimen/activity_top_margin_5dp"
+                        android:textSize="@dimen/text_16"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:textColor="@color/black"
+                        android:gravity="center"/>
+                    <EditText
+                        android:id="@+id/fatherAdd2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        android:drawablePadding="10dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:layout_gravity="center"
+                        android:gravity="left|center"
+                        android:background="@android:color/transparent"
+                        android:inputType="textPersonName"
+                        android:textSize="@dimen/text_16"
+                        android:padding="8dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="@dimen/activity_top_margin_5dp"
+                    android:background="@drawable/drawable_edit_text"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/activity_top_margin_5dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="center"
+                        android:text="@string/city"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_16"
+                        />
+
+                    <EditText
+                        android:id="@+id/fatherCity"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        android:drawablePadding="10dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="left|center"
+                        android:inputType="textPersonName"
+                        android:padding="8dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        android:textSize="@dimen/text_16"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="@dimen/activity_top_margin_5dp"
+                    android:background="@drawable/drawable_edit_text"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/activity_top_margin_5dp"
+                        android:gravity="center"
+                        android:text="@string/state"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_16"
+                        android:fontFamily="@font/reglisse_fill"
+                        />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <Spinner
+                            android:id="@+id/stateFatherSpinner"
+                            android:layout_width="match_parent"
+                            android:layout_gravity="right"
+                            android:layout_marginHorizontal="2dp"
+                            android:background="@drawable/drawable_edit_text"
+                            android:visibility="visible"
+                            android:gravity="center"
+                            android:layout_height="match_parent"/>
+
+                        <ImageView
+                            android:id="@+id/father_state"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_centerHorizontal="true"
+                            android:paddingRight="10dp"
+                            android:src="@drawable/spinner_down" />
+                    </RelativeLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="@dimen/activity_top_margin_5dp"
+                    android:background="@drawable/drawable_edit_text"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/activity_top_margin_5dp"
+                        android:gravity="center"
+                        android:text="@string/country"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_16"
+                        android:fontFamily="@font/reglisse_fill"
+                        />
+
+                    <EditText
+                        android:id="@+id/fatherCountry"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        android:drawablePadding="10dp"
+                        android:gravity="left|center"
+                        android:inputType="textPersonName"
+                        android:padding="8dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        android:textSize="@dimen/text_16"
+                        android:fontFamily="@font/reglisse_fill"
+                        />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="@dimen/activity_top_margin_5dp"
+                    android:background="@drawable/drawable_edit_text"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/activity_top_margin_5dp"
+                        android:gravity="center"
+                        android:text="@string/landline"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_16"
+                        android:fontFamily="@font/reglisse_fill"
+                        />
+
+                    <EditText
+                        android:id="@+id/fatherEmergency"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        android:drawablePadding="10dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="left|center"
+                        android:inputType="textPersonName"
+                        android:padding="8dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        android:textSize="@dimen/text_16"
+                        />
+
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/father_save"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="@dimen/button_width_200"
+                    android:layout_height="@dimen/height_40"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/activity_top_margin_5dp"
+                    android:layout_marginBottom="@dimen/horizontal_margin_20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/login_button_bg"
+                    android:fontFamily="@font/reglisse_fill"
+                    android:text="@string/student_save"
+                    android:paddingBottom="5dp"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_22"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login_bg"
+    tools:context="com.vedictree.preschool.PromoCode">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="top"
+            android:gravity="top|center"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="top|center"
+                android:src="@drawable/ic_logo_tree"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/arial_bold"
+                    android:gravity="center"
+                    android:text="@string/logoString2"
+                    android:textColor="#D32F2F"
+                    android:textSize="@dimen/text_size_20sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="4dp"
+                    android:fontFamily="@font/arial_bold"
+                    android:gravity="center"
+                    android:text="@string/logoString3"
+                    android:textColor="#D32F2F"
+                    android:textSize="@dimen/text_size_20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="@string/add_promo_code"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_18"
+                android:fontFamily="@font/reglisse_fill" />
+            <EditText
+                android:id="@+id/PromoCodeText"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_land_60dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/white"
+                android:hint="@string/enter_promo_code"
+                android:textColorHint="@color/white"
+                android:textSize="@dimen/text_18"
+                android:maxLength="12"
+                android:fontFamily="@font/reglisse_fill"
+                android:background="@drawable/rect_edittext_bg"
+                android:singleLine="true"
+                android:gravity="center" />
+
+
+            <Button
+                android:id="@+id/sendPromoCodeButton"
+                android:layout_width="200dp"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_height="@dimen/button_land_60dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textSize="@dimen/text_18"
+                android:fontFamily="@font/reglisse_fill"
+                android:paddingBottom="5dp"
+                android:background="@drawable/login_button_bg"
+                android:text="@string/submitButton"
+
+                android:textColor="@color/white" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/verify_otp_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

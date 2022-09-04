@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/transparent"
+    tools:context="com.vedictree.preschool.StudentFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginHorizontal="@dimen/horizontal_margin_10dp"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_image_student"
+                    android:layout_width="@dimen/image_height"
+                    android:layout_height="@dimen/image_height"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/activity_top_margin_5dp"
+                    android:elevation="5dp"
+                    android:src="@drawable/parent_dashboard_girl"
+                    app:civ_border_color="@color/app_orange_two"
+                    app:civ_border_overlay="@color/app_orange_two"
+                    app:civ_border_width="2dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/drawable_edit_text"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/activity_top_margin_5dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="center"
+                        android:text="@string/firstName"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_16" />
+
+                    <EditText
+                        android:id="@+id/studentName"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        android:drawablePadding="10dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="left|center"
+                        android:inputType="textPersonName"
+                        android:padding="8dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        android:textSize="@dimen/text_16" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="@dimen/activity_top_margin_5dp"
+                    android:background="@drawable/drawable_edit_text"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/activity_top_margin_5dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="center"
+                        android:text="@string/studentFatherName"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_16" />
+
+                    <EditText
+                        android:id="@+id/studentFatherName"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        android:drawablePadding="10dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="left|center"
+                        android:inputType="textPersonName"
+                        android:padding="8dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        android:textSize="@dimen/text_16" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="@dimen/activity_top_margin_5dp"
+                    android:background="@drawable/drawable_edit_text"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/activity_top_margin_5dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="center"
+                        android:text="@string/lastName"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_16" />
+
+                    <EditText
+                        android:id="@+id/studentSurnameName"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        android:drawablePadding="10dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="left|center"
+                        android:inputType="textPersonName"
+                        android:padding="8dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        android:textSize="@dimen/text_16" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="@dimen/activity_top_margin_5dp"
+                    android:background="@drawable/drawable_edit_text"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/activity_top_margin_5dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="center"
+                        android:text="@string/emailLabel"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_16" />
+
+                    <EditText
+                        android:id="@+id/studentEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="8dp"
+                        android:background="@android:color/transparent"
+                        android:drawablePadding="10dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="left|center"
+                        android:inputType="textPersonName"
+                        android:padding="8dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        android:textSize="@dimen/text_16" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="@dimen/activity_top_margin_5dp"
+                    android:background="@drawable/drawable_edit_text"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/activity_top_margin_5dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="center"
+                        android:text="@string/studentReligionName"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_16" />
+                    <EditText
+                        android:id="@+id/studentReligionName"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        android:drawablePadding="10dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="left|center"
+                        android:inputType="textPersonName"
+                        android:padding="8dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        android:textSize="@dimen/text_16" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="@dimen/activity_top_margin_5dp"
+                    android:background="@drawable/drawable_edit_text"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/activity_top_margin_5dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="center"
+                        android:text="@string/motherAdhar"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_16" />
+
+                    <EditText
+                        android:id="@+id/studentAdhar"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        android:drawablePadding="10dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="left|center"
+                        android:inputType="textPersonName"
+                        android:padding="8dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        android:textSize="@dimen/text_16" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="@dimen/activity_top_margin_5dp"
+                    android:background="@drawable/drawable_edit_text"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/activity_top_margin_5dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="center"
+                        android:text="@string/mobileNum"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_16" />
+
+                    <EditText
+                        android:id="@+id/studentMobile"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="8dp"
+                        android:background="@android:color/transparent"
+                        android:drawablePadding="10dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="left|center"
+                        android:inputType="textPersonName"
+                        android:padding="8dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        android:textSize="@dimen/text_16" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="@dimen/activity_top_margin_5dp"
+                    android:background="@drawable/drawable_edit_text"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/activity_top_margin_5dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="center"
+                        android:text="@string/studentReligionName"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_16" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="@dimen/activity_top_margin_5dp"
+                    android:background="@drawable/drawable_edit_text"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/activity_top_margin_5dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="center"
+                        android:text="@string/studentCasteName"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_16" />
+
+                    <EditText
+                        android:id="@+id/studentCasteName"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        android:drawablePadding="10dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="left|center"
+                        android:inputType="textPersonName"
+                        android:padding="8dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        android:textSize="@dimen/text_16" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="@dimen/activity_top_margin_5dp"
+                    android:background="@drawable/drawable_edit_text"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/activity_top_margin_5dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="center"
+                        android:text="@string/studentSubCasteName"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_16" />
+
+                    <EditText
+                        android:id="@+id/studentSubCasteName"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="left|center"
+                        android:background="@android:color/transparent"
+                        android:drawablePadding="10dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="left|center"
+                        android:inputType="textPersonName"
+                        android:padding="8dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        android:textSize="@dimen/text_16" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="@dimen/activity_top_margin_5dp"
+                    android:background="@drawable/drawable_edit_text"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/activity_top_margin_5dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="center"
+                        android:text="@string/studentPreviousSchookName"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_16" />
+
+                    <EditText
+                        android:id="@+id/studentPreviousSchoolName"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="left|center"
+                        android:background="@android:color/transparent"
+                        android:drawablePadding="10dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="left|center"
+                        android:inputType="textPersonName"
+                        android:padding="8dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        android:textSize="@dimen/text_16" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="@dimen/activity_top_margin_5dp"
+                    android:background="@drawable/drawable_edit_text"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/activity_top_margin_5dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="center"
+                        android:text="@string/studentMotherToungeName"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_16" />
+
+                    <EditText
+                        android:id="@+id/studentMotherToungeName"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        android:drawablePadding="10dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="left|center"
+                        android:inputType="textPersonName"
+                        android:padding="8dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        android:textSize="@dimen/text_16" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="@dimen/activity_top_margin_5dp"
+                    android:background="@drawable/drawable_edit_text"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/activity_top_margin_5dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="center"
+                        android:text="@string/address"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_16" />
+
+                    <EditText
+                        android:id="@+id/studentAdd1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        android:drawablePadding="10dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="left|center"
+                        android:inputType="textPersonName"
+                        android:padding="8dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        android:textSize="@dimen/text_16" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="@dimen/activity_top_margin_5dp"
+                    android:background="@drawable/drawable_edit_text"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/activity_top_margin_5dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="center"
+                        android:text="@string/address_2"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_16" />
+
+                    <EditText
+                        android:id="@+id/studentAdd2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        android:drawablePadding="10dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="left|center"
+                        android:inputType="textPersonName"
+                        android:padding="8dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        android:textSize="@dimen/text_16" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="@dimen/activity_top_margin_5dp"
+                    android:background="@drawable/drawable_edit_text"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/activity_top_margin_5dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="center"
+                        android:text="@string/studentGenderName"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_16" />
+
+                    <RadioGroup
+                        android:id="@+id/radioGrp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="8dp">
+
+                        <RadioButton
+                            android:id="@+id/radioM"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:buttonTint="@color/app_red"
+                            android:fontFamily="@font/reglisse_fill"
+                            android:text="Male"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_16" />
+
+                        <RadioButton
+                            android:id="@+id/radioF"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:buttonTint="@color/app_red"
+                            android:checked="false"
+                            android:fontFamily="@font/reglisse_fill"
+                            android:text="Female"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_16" />
+                    </RadioGroup>
+
+                    <EditText
+                        android:id="@+id/studentGenderName"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        android:drawablePadding="10dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="left|center"
+                        android:inputType="textPersonName"
+                        android:padding="8dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        android:textSize="@dimen/text_16"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="@dimen/activity_top_margin_5dp"
+                    android:background="@drawable/drawable_edit_text"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/activity_top_margin_5dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="center"
+                        android:text="@string/studentBirthDate"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_16" />
+
+                    <EditText
+                        android:id="@+id/studentBirthDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        android:drawablePadding="10dp"
+                        android:focusable="false"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="left|center"
+                        android:inputType="date"
+                        android:padding="8dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        android:textSize="@dimen/text_16" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="@dimen/activity_top_margin_5dp"
+                    android:background="@drawable/drawable_edit_text"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/activity_top_margin_5dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="center"
+                        android:text="@string/city"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_16" />
+
+                    <EditText
+                        android:id="@+id/studentCity"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        android:drawablePadding="10dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="left|center"
+                        android:inputType="textPersonName"
+                        android:padding="8dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        android:textSize="@dimen/text_16" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="@dimen/activity_top_margin_5dp"
+                    android:background="@drawable/drawable_edit_text"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/activity_top_margin_5dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="center"
+                        android:text="@string/state"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_16" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <Spinner
+                            android:id="@+id/stateSpinner"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="right"
+                            android:layout_marginHorizontal="2dp"
+                            android:background="@drawable/drawable_edit_text"
+                            android:gravity="center"
+                            android:visibility="visible" />
+
+                        <ImageView
+                            android:id="@+id/show_pass_btn_state"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:paddingRight="10dp"
+                            android:src="@drawable/spinner_down" />
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="@dimen/activity_top_margin_5dp"
+                    android:background="@drawable/drawable_edit_text"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/activity_top_margin_5dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="center"
+                        android:text="@string/country"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_16" />
+
+                    <EditText
+                        android:id="@+id/studentCountry"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        android:drawablePadding="10dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="left|center"
+                        android:inputType="textPersonName"
+                        android:padding="8dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        android:textSize="@dimen/text_16" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="@dimen/activity_top_margin_5dp"
+                    android:background="@drawable/drawable_edit_text"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/activity_top_margin_5dp"
+                        android:fontFamily="@font/reglisse_fill"
+                        android:gravity="center"
+                        android:text="Birth Certificate:-"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_16"
+                        android:visibility="visible" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <EditText
+                            android:id="@+id/student_certificate"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/drawable_edit_text"
+                            android:drawablePadding="5dp"
+                            android:focusable="false"
+                            android:fontFamily="@font/reglisse_fill"
+                            android:paddingStart="8dp"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            tools:ignore="RtlSymmetry" />
+
+                        <ImageView
+                            android:id="@+id/browse_certificate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginEnd="5dp"
+                            android:contentDescription="@string/todo"
+
+                            android:paddingEnd="10dp"
+                            android:src="@drawable/ic_baseline_file_copy_24"
+                            tools:ignore="RtlSymmetry,UsingOnClickInXml" />
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/student_save"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="@dimen/button_width_200"
+                    android:layout_height="@dimen/height_40"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="@dimen/horizontal_margin_20dp"
+                    android:layout_marginTop="@dimen/activity_top_margin_5dp"
+                    android:layout_marginBottom="@dimen/horizontal_margin_20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/login_button_bg"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:fontFamily="@font/reglisse_fill"
+                    android:paddingBottom="5dp"
+                    android:text="@string/student_save"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_22"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</FrameLayout>

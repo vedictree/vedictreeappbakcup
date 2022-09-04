@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:textSize="@dimen/text_16">
+
+    <TextView
+        android:id="@+id/test_file_row"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:visibility="visible"
+        android:layout_weight="9"
+        android:layout_gravity="center|left"
+        android:gravity="center|left"
+        android:textColor="@color/black"
+        android:focusable="false"
+        android:maxLength="15"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginBottom="15dp"
+        android:hint="Click here to upload... "
+        android:textSize="@dimen/text_16"
+        android:background="@drawable/drawable_edit_text"
+        android:textColorHint="@color/app_gray"
+        android:paddingLeft="10dp"
+        android:fontFamily="@font/reglisse_fill"/>
+    <ImageView
+        android:id="@+id/upload_icon"
+        android:layout_width="50dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="15dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:padding="8dp"
+        android:visibility="visible"
+        android:background="@drawable/drawable_edit_text"
+        app:tint="@color/black"
+        android:src="@drawable/ic_baseline_arrow_circle_up_24" />
+
+</TableRow>
+
